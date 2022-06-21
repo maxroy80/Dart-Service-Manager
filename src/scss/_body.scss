@@ -1,0 +1,53 @@
+body {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.btn {
+    text-decoration: none;
+    box-shadow: 0 5px  5px rgba(14, 10, 80, 0.3);
+    transition: all 0.3s ease-out;
+
+}
+
+.btn:hover {
+    box-shadow: 0 0 18px rgb(14, 10, 80);
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: raleway;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #B0BEC5;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+h3 {
+    color: #061E37;
+    font-weight: bold;
+    font-size: 20px;
+}

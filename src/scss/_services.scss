@@ -1,0 +1,17 @@
+.services {
+    max-width: 802px;
+    margin-left: 50%;
+	transform: translateX(-50%);
+
+    h2 {
+        margin-top: 99px;
+        margin-bottom: 0;
+    }
+
+    &>p {
+        width: 555px;
+        margin-top: 29px;
+    }
+
+    @import "accordion";
+}
