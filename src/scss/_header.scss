@@ -1,5 +1,4 @@
 header {
-    // height: 750px;
     height: 47vw;
     width: 100vw;
     background: linear-gradient(135deg, rgba(28, 234, 189, 0.804), rgba(11, 176, 202, 0.807));
@@ -153,14 +152,12 @@ header {
         }
 
         .header-content__right-side {
-            // height: 100%;
             position: relative;
 
             .header-content__right-side--bg-img img {
                 position: absolute;
                 z-index: 0;
                 right: 0;
-                // height: 100%;
 
                 @media screen and (max-width: 1230px) {
                     width: 48.9vw;
